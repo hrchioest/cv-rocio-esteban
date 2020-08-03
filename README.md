@@ -1,6 +1,6 @@
 # cv-rocio-esteban
 
 
-**Ver online**: https://github.com/hrchioest/cv-rocio-esteban/tree/master/media
+**Ver online**: https://hrchioest.github.io/cv-rocio-esteban/
 
 ![CV](https://raw.githubusercontent.com/hrchioest/cv-rocio-esteban/master/media/print.png)
