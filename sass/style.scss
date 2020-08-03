@@ -79,17 +79,14 @@ ion-icon{
   display: block;
   padding-bottom: 7px;
   color: #5a5959;
-  @media (min-width: 1025px) {
-    font-size: 1rem;
-    color: initial;
-    padding-bottom: 0px;
-  }
+  
   @media (min-width: 1025px) {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
     padding-top: 0px;
-    width: 400px;
+    width: 260px;
+    color: initial;
   }
 }
 .wrapper-img {
