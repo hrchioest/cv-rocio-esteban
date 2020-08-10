@@ -46,12 +46,17 @@ h3{
     font-size: 1.28em;
   }
 }
+
 .wrapper-paragraph{
   @media (min-width: 1025px) {
     width: 725px;
   }
 }
 
+ion-icon{
+  font-size:1.87rem;
+  color: black;
+}
 .wrapper-data-img {
   display: flex;
   flex-direction: column-reverse;
@@ -78,9 +83,9 @@ h3{
   font-size: 1.175rem;
   @media (min-width: 1025px) {
     display: flex;
-    width: 310px;
     flex-direction: column;
     padding-top: 0px;
+    width: 265px;
     color: initial;
   }
 }
@@ -108,6 +113,7 @@ img {
 .wrapper-job-date {
   display: block;
   padding-bottom: 5px;
+  
   @media (min-width: 1025px) {
     display: flex;
     flex-direction: row;
@@ -120,12 +126,6 @@ img {
       font-size: 1.2rem;
     
   };
-}
-.content-link{
-  width: 260px;
-  @media (min-width: 1025px) {
-    width: 480px;
-  }
 }
 .wrapper-job,
 .information {
@@ -168,10 +168,7 @@ img {
   &:hover{
     color:#3535d0;
   }
-  @media (max-width: 678px) {
-    font-size: 1rem;
-  }
-
+  
 }
 .place{
   padding-left: 7px;
@@ -186,13 +183,12 @@ img {
 .text-link{
   color: initial;
   text-decoration: none;
-  padding: 0 5px;
+  padding: 10px;
   margin:10px;
-  font-size: 25px;
-  background: #f7f7f7;
-  border-radius: 4px;
+  font-size: 17px;
+  background-color: #f5f3f3;
   &:hover{
-    color: #3535d0;
+    color:#3535d0;
   }
 }
 .description{
@@ -212,11 +208,12 @@ img {
   @media (min-width: 1025px) {
     width: 240px;
   }
+  
 }
 .wrapper-description{
-  width: 680px;
+  width: 430px;
 }
-.wrapper-button{
+.wrapper-links{
   width: 300px;
   @media (max-width: 678px) {
     margin: auto;
@@ -224,11 +221,4 @@ img {
     justify-content: space-around;  
   }
   
-}
-.wrapper-links{
-  margin-top:10px;
-}
-.wrapper-title-links{
-  display: flex;
-  flex-direction: column;
 }
