@@ -11,7 +11,7 @@ body p {
 
 main {
   margin: 15px;
-  font-size: 16px;
+  font-size: 18px;
   color: #3a3535;
 }
 @media (min-width: 1025px) {
@@ -23,7 +23,7 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   padding-bottom: 0.43rem;
 }
 @media (min-width: 1025px) {
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.56rem;
+  font-size: 1.89rem;
 }
 @media (min-width: 1025px) {
   h2 {
@@ -44,12 +44,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.45em;
   margin-bottom: 0px;
 }
 @media (min-width: 1025px) {
   h3 {
     text-align: initial;
+    font-size: 1.28em;
   }
 }
 
@@ -57,11 +58,6 @@ h3 {
   .wrapper-paragraph {
     width: 725px;
   }
-}
-
-ion-icon {
-  font-size: 1.87rem;
-  color: black;
 }
 
 .wrapper-data-img {
@@ -90,18 +86,17 @@ ion-icon {
 }
 
 .wrapper-data {
-  font-size: 0.875rem;
   display: block;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
   color: #5a5959;
+  font-size: 1.175rem;
 }
 @media (min-width: 1025px) {
   .wrapper-data {
-    font-size: 1rem;
     display: flex;
+    width: 310px;
     flex-direction: column;
     padding-top: 0px;
-    width: 260px;
     color: initial;
   }
 }
@@ -129,22 +124,33 @@ ion-icon {
   }
 }
 
-img.desaturada {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-}
-
 .wrapper-job-date {
   display: block;
+  padding-bottom: 5px;
 }
 @media (min-width: 1025px) {
   .wrapper-job-date {
     display: flex;
     flex-direction: row;
     margin: 15px 0px 15px 0px;
+  }
+}
+
+.company, .institution, .text-sumary, .wrapper-paragraph, .description {
+  font-size: 1.37rem;
+}
+@media (min-width: 1025px) {
+  .company, .institution, .text-sumary, .wrapper-paragraph, .description {
+    font-size: 1.2rem;
+  }
+}
+
+.content-link {
+  width: 260px;
+}
+@media (min-width: 1025px) {
+  .content-link {
+    width: 480px;
   }
 }
 
@@ -164,11 +170,12 @@ img.desaturada {
 
 .text-desc {
   padding-left: 10px;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 1025px) {
   .wrapper-job {
-    width: 790px;
+    width: 785px;
   }
 }
 
@@ -192,9 +199,15 @@ img.desaturada {
   padding-left: 10px;
   color: initial;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 .info:hover {
   color: #3535d0;
+}
+@media (max-width: 678px) {
+  .info {
+    font-size: 1rem;
+  }
 }
 
 .place {
@@ -208,6 +221,64 @@ img.desaturada {
 
 .wrapper-knows {
   padding: 15px 0px;
+}
+
+.text-link {
+  color: initial;
+  text-decoration: none;
+  padding: 0 5px;
+  margin: 10px;
+  font-size: 25px;
+  background: #f7f7f7;
+  border-radius: 4px;
+}
+.text-link:hover {
+  color: #3535d0;
+}
+
+.description {
+  margin: 10px 0px;
+}
+
+.wrapper-proyect {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 678px) {
+  .wrapper-proyect {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1025px) {
+  .wrapper-title {
+    width: 240px;
+  }
+}
+
+.wrapper-description {
+  width: 680px;
+}
+
+.wrapper-button {
+  width: 300px;
+}
+@media (max-width: 678px) {
+  .wrapper-button {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.wrapper-links {
+  margin-top: 10px;
+}
+
+.wrapper-title-links {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
