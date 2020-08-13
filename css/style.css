@@ -296,11 +296,11 @@ li {
 }
 
 .tool {
-  font-size: 1em;
+  font-size: 0.89em;
 }
 @media (min-width: 1025px) {
   .tool {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 }
 
