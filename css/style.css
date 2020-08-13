@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
 body h1,
 body h2,
@@ -11,7 +12,7 @@ body p {
 
 main {
   margin: 15px;
-  font-size: 18px;
+  font-size: 16px;
   color: #3a3535;
 }
 @media (min-width: 1025px) {
@@ -23,34 +24,30 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 2.2rem;
-  padding-bottom: 0.43rem;
+  padding-bottom: 0.43em;
 }
 @media (min-width: 1025px) {
   h1 {
-    padding: 1.4rem;
-    font-size: 2.37rem;
+    padding: 1.4em;
+    font-size: 2.3em;
   }
 }
 
-h2 {
-  font-size: 1.89rem;
-}
 @media (min-width: 1025px) {
   h2 {
-    font-size: 1.56rem;
+    font-size: 1.625em;
     text-align: initial;
   }
 }
 
 h3 {
-  font-size: 1.45em;
+  font-size: 1.25em;
   margin-bottom: 0px;
 }
 @media (min-width: 1025px) {
   h3 {
     text-align: initial;
-    font-size: 1.28em;
+    font-size: 1.375em;
   }
 }
 
@@ -87,17 +84,18 @@ h3 {
 
 .wrapper-data {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   color: #5a5959;
-  font-size: 1.175rem;
+  font-size: 1em;
 }
 @media (min-width: 1025px) {
   .wrapper-data {
+    font-size: 1.125em;
     display: flex;
-    width: 310px;
+    width: 260px;
     flex-direction: column;
     padding-top: 0px;
-    color: initial;
+    color: inherit;
   }
 }
 
@@ -106,7 +104,7 @@ h3 {
   overflow: hidden;
   height: 200px;
   width: 200px;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   margin: auto;
 }
 @media (min-width: 1025px) {
@@ -124,6 +122,15 @@ h3 {
   }
 }
 
+.wrapper-ico {
+  font-size: 1.25em;
+}
+@media (min-width: 1025px) {
+  .wrapper-ico {
+    padding-right: 0.31em;
+  }
+}
+
 .wrapper-job-date {
   display: block;
   padding-bottom: 5px;
@@ -136,12 +143,9 @@ h3 {
   }
 }
 
-.company, .institution, .text-sumary, .wrapper-paragraph, .description {
-  font-size: 1.37rem;
-}
 @media (min-width: 1025px) {
-  .company, .institution, .text-sumary, .wrapper-paragraph, .description {
-    font-size: 1.2rem;
+  .text-sumary, .wrapper-paragraph, .description {
+    font-size: 1.125em;
   }
 }
 
@@ -168,14 +172,14 @@ h3 {
   display: inline-block;
 }
 
-.text-desc {
-  padding-left: 10px;
-  font-size: 1.3rem;
+.text-description {
+  font-size: 1.125em;
+  margin-top: 0.3125em;
 }
 
 @media (min-width: 1025px) {
   .wrapper-job {
-    width: 785px;
+    width: 750px;
   }
 }
 
@@ -199,14 +203,24 @@ h3 {
   padding-left: 10px;
   color: initial;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 .info:hover {
   color: #3535d0;
 }
 @media (max-width: 678px) {
   .info {
-    font-size: 1rem;
+    font-size: 1em;
+  }
+}
+
+.company, .institution {
+  font-size: 1.125em;
+  padding: 4px 0px 4px 0px;
+}
+@media (min-width: 1025px) {
+  .company, .institution {
+    font-size: 1.25em;
   }
 }
 
@@ -217,10 +231,6 @@ h3 {
   .place {
     padding-left: 0;
   }
-}
-
-.wrapper-knows {
-  padding: 15px 0px;
 }
 
 .text-link {
@@ -236,24 +246,27 @@ h3 {
   color: #3535d0;
 }
 
-.description {
-  margin: 10px 0px;
+@media (max-width: 678px) {
+  .description {
+    margin: 10px 0px;
+  }
 }
 
 .wrapper-proyect {
-  margin-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
 }
-@media (max-width: 678px) {
+@media (min-width: 1025px) {
   .wrapper-proyect {
-    flex-wrap: wrap;
+    margin: 22px 5px;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 1025px) {
   .wrapper-title {
-    width: 240px;
+    width: 250px;
   }
 }
 
@@ -261,15 +274,12 @@ h3 {
   width: 680px;
 }
 
-.wrapper-button {
-  width: 300px;
+.wrapper-knows {
+  margin-top: 10px;
 }
-@media (max-width: 678px) {
-  .wrapper-button {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-  }
+
+li {
+  margin-bottom: 7px;
 }
 
 .wrapper-links {
@@ -279,6 +289,19 @@ h3 {
 .wrapper-title-links {
   display: flex;
   flex-direction: column;
+}
+
+.tools {
+  margin-bottom: 10px;
+}
+
+.tool {
+  font-size: 1em;
+}
+@media (min-width: 1025px) {
+  .tool {
+    font-size: 1.125em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
