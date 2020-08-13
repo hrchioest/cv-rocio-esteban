@@ -200,7 +200,7 @@ h3 {
 }
 
 .info {
-  padding-left: 10px;
+  padding: 4px 0px 0px 10px;
   color: initial;
   text-decoration: none;
 }
