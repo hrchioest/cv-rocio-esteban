@@ -23,13 +23,11 @@ main {
 }
 
 h1 {
-  text-align: center;
-  padding-bottom: 0.43em;
+  font-size: 1.7em;
 }
 @media (min-width: 1025px) {
   h1 {
-    padding: 1.4em;
-    font-size: 2.3em;
+    font-size: 2em;
   }
 }
 
