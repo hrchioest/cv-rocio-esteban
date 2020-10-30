@@ -117,6 +117,7 @@ img {
 .description {
   @media (min-width: 1025px) {
     font-size: 1.125em;
+    text-align: justify;
   }
 }
 
@@ -163,12 +164,21 @@ img {
   padding: 4px 0px 0px 10px;
   color: initial;
   text-decoration: none;
+  font-size: 16px;
+
   &:hover {
     color: #3535d0;
   }
-  @media (max-width: 678px) {
-    font-size: 1em;
+}
+.name-place {
+  text-align: center;
+  @media (min-width: 1025px) {
+    text-align: start;
   }
+}
+.phone {
+  padding-right: 13px;
+  font-size: 16px;
 }
 .company,
 .institution {
@@ -211,6 +221,12 @@ img {
   @media (min-width: 1025px) {
     margin: 22px 5px;
     justify-content: space-between;
+  }
+}
+.justify {
+  @media (max-width: 678px) {
+    display: block;
+    padding-bottom: 10px;
   }
 }
 .wrapper-title {
