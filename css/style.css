@@ -145,6 +145,7 @@ h3 {
 .wrapper-paragraph,
 .description {
     font-size: 1.125em;
+    text-align: justify;
   }
 }
 
@@ -202,14 +203,24 @@ h3 {
   padding: 4px 0px 0px 10px;
   color: initial;
   text-decoration: none;
+  font-size: 16px;
 }
 .info:hover {
   color: #3535d0;
 }
-@media (max-width: 678px) {
-  .info {
-    font-size: 1em;
+
+.name-place {
+  text-align: center;
+}
+@media (min-width: 1025px) {
+  .name-place {
+    text-align: start;
   }
+}
+
+.phone {
+  padding-right: 13px;
+  font-size: 16px;
 }
 
 .company,
@@ -261,6 +272,13 @@ h3 {
   .wrapper-proyect {
     margin: 22px 5px;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 678px) {
+  .justify {
+    display: block;
+    padding-bottom: 10px;
   }
 }
 

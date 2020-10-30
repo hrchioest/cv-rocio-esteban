@@ -1,0 +1,14 @@
+.wrapper-img {
+  display: none;
+}
+.wrapper-job {
+  flex-direction: row;
+}
+.company,
+.institution {
+  padding-left: 10px;
+}
+@page {
+  size: 210mm 297mm;
+  margin: 18mm 16mm 17mm 16mm;
+}
