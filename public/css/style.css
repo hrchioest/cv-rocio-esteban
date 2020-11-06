@@ -140,6 +140,11 @@ h3 {
   }
 }
 
+.text-sumary,
+.wrapper-paragraph {
+  text-align: justify;
+}
+
 @media (min-width: 1025px) {
   .text-sumary,
 .wrapper-paragraph,
@@ -165,7 +170,7 @@ h3 {
 }
 
 .information {
-  margin-bottom: 14px;
+  margin: 14px 0;
 }
 
 .text-know {
